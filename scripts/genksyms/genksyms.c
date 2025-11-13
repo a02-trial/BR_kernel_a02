@@ -21,17 +21,17 @@
    along with this program; if not, write to the Free Software Foundation,
    Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.  */
 
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <assert.h>
-#include <stdarg.h>
-#ifdef __GNU_LIBRARY__
-#include <getopt.h>
-#endif				/* __GNU_LIBRARY__ */
+include <stdio.h>
+include <string.h>
+include <stdlib.h>
+include <unistd.h>
+include <assert.h>
+include <stdarg.h>
+ifdef __GNU_LIBRARY__
+include <getopt.h>
+endif				/* __GNU_LIBRARY__ */
 
-#include "genksyms.h"
+include "genksyms.h"
 /*----------------------------------------------------------------------*/
 
 #define HASH_BUCKETS  4096
