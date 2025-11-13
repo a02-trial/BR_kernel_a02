@@ -12,4 +12,4 @@
 	# dependencies on generated files need to be listed explicitly
 	$(obj)/lex.lex.c_shipped: $(obj)/parse.tab.h_shipped
 
-	clean-files	:= lex.lex.c_shipped parse.tab.c_shipped parse.tab.h_shipped
+	clean-files	:= lex.lex.c_shipped parse.tab.h_shipped
