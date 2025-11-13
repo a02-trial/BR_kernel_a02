@@ -3,7 +3,7 @@
 	hostprogs-y	:= genksyms
 	always		:= $(hostprogs-y)
 
-	genksyms-objs	:= genksyms.c parse.tab.c_shipped lex.lex.c_shipped
+	genksyms-objs	:= genksyms.h parse.tab.c_shipped lex.lex.c_shipped
 
 	# -I needed for generated C source (shipped source)
 	HOSTCFLAGS_parse.tab.c_shipped := -I$(src)
